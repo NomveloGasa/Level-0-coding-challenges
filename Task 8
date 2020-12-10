@@ -1,0 +1,15 @@
+function convert(num) {
+  var getHours =  Math.floor(num / 60);
+  var getMIns = (num % 60);
+  
+  if (getHours == 1 && getMIns == 1){
+    return ("1 hour, 1 minute");
+ }else if (getHours == 1 && getMIns > 1){
+   return ("1 hour, " + getMIns + " minutes");
+ }else if (getMIns == 1 && getHours > 1){
+   return getHours + "hours, " + "1 minute";
+ } 
+
+ else {return getHours + "hours, " + getMIns + "minutes"; }
+}
+convert(121);
