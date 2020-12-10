@@ -1,0 +1,9 @@
+function convertToFahrenheit(num) {
+return ((num * 9 / 5) + 32);
+}
+convertToFahrenheit(30);
+
+function convertToCelsius(num) {
+return ((num - 32) * 5 / 9);
+}
+convertToCelsius(86);
