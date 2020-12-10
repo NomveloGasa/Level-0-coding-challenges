@@ -1,0 +1,9 @@
+function inputStatus (a,b) {
+var sumOfNumbers = str(a + b);
+if (( a == 3 || b == 3 ) && ("3" in (sumOfNumbers) {
+return true
+} else { 
+return false:;
+}
+}
+inputStatus (33,7);
