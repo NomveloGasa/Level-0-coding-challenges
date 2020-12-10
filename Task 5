@@ -1,0 +1,6 @@
+function areaOfTriagle(a,b,c){
+var s = (a + b + c)/2;
+var preArea = s * ((s - a ) * (s - b) * (s - c));
+return Math.sqrt(preArea);
+}
+areaOfTriagle(5,6,7);
